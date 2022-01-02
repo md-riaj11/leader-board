@@ -10,23 +10,35 @@
 </head>
 <body>
     <div class="container-fluid leader-nav-bg">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="images/icons/logo.png" alt="" class="logo"></a>
-                <h4 class="p-2">Idea</h4>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                  <div class="navbar-nav ms-auto">  
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
+        <div class="header">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="images/icons/logo.png" alt="" class="logo"></a>
+                        <h4 class="p-2">Idea</h4>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav ">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
+                  </nav>
         </div>  
     </div>
-    <section class="container leader-board-top mt-4">
+    <section class="container-fluid leader-board-top mt-4">
         <h3 class="px-4 pt-4">Top Player</h3>
 
         <div class="d-flex flex-wrap  p-4">
@@ -88,7 +100,7 @@
             </div>
         </div>
     </section>
-    <section class="container course_list">
+    <section class="container-fluid course_list">
         <h3 class="px-4 pt-4 ">Top Player</h3>
         <div class="d-flex flex-wrap">
             <div class="col-md-4 p-2 col-sm-12 col-12">

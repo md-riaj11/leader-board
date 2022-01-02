@@ -4,7 +4,8 @@ body {
     
     font-family: 'Poppins', sans-serif;
 }
-.container{width: 870px;}
+.container-fluid,header{max-width: 870px;}
+
 .leader-nav-bg{
     background-color: #562EFF;
     color: #fff;
